@@ -1,0 +1,159 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url("application.css");
+/* this css is for home page, however tags in the section id
+will affect sign up, login, faq and forms */
+
+
+nav {
+  max-width: 				1200px;
+}
+
+#floor {
+  width:					400px;
+  height:					400px;
+  background-image:		url(ground.jpg);
+  z-index: 				5;
+}
+
+#backdrop {
+  width:					400px;
+  height: 				300px;
+  background-image:		url(sky1.png);
+  z-index: 				5;
+}
+
+#hill {
+  width: 					400px;
+  height:					180px;
+  background-image: 		url(hill.png);
+  z-index: 				5;
+}
+
+#tree_right1 {
+  width: 					80px;
+  height:					180px;
+  background-image:		url(tree2.png);
+  background-repeat: 		no-repeat;
+  z-index: 				5;
+  overflow: 				visible;
+}
+
+#tree_right2 {
+  width: 					110px;
+  height:					200px;
+  background-image:		url(tree3.png);
+  background-repeat: 		no-repeat;
+  z-index: 				5;
+}
+
+#tree_right3 {
+  width: 					80px;
+  height:					220px;
+  background-image:		url(tree1.png);
+  background-repeat: 		no-repeat;
+  z-index: 				4;
+}
+
+#tree_left1 {
+  width: 					80px;
+  height:					220px;
+  background-image:		url(tree1.png);
+  background-repeat: 		no-repeat;
+  z-index: 				5;
+}
+
+#tree_left2 {
+  width: 					80px;
+  height:					220px;
+  background-image:		url(tree1.png);
+  background-repeat: 		no-repeat;
+  z-index: 				5;
+}
+
+#tree_left3 {
+  width: 					80px;
+  height:					180px;
+  background-image:		url(tree2.png);
+  background-repeat: 		no-repeat;
+  z-index: 				5;
+}
+
+#tree_back1 {
+  width: 					144px;
+  height:					195px;
+  background-image:		url(tree4.png);
+  background-repeat: 		no-repeat;
+  z-index: 				5;
+}
+
+#backgrass {
+  width:					450px;
+  height:					137px;
+  background-image:		url(backgrass.png);
+  background-repeat: 		no-repeat;
+  z-index: 				5;
+}
+
+#undergrowth1 {
+  width:					400px;
+  height:					20px;
+  background-image: 		url(grass1.png);
+}
+
+
+#sun {
+  width:					80px;
+  height: 				80px;
+  border-radius: 			50% 50% 50% 50%;
+  background-image: 		linear-gradient(top, #A2000C 4%, #FFDE40 85%);
+  background-image: 		-moz-linear-gradient(top, #A2000C 4%, #FFDE40 85%);
+  background-image: 		-webkit-linear-gradient(top, #A2000C 4%, #FFDE40 85%);
+  z-index: 				10;
+}
+
+#pandacloud {
+  width: 					150px;
+  height: 				85px;
+  background-image: 		url(pandacloud.png);
+}
+
+#ticklecloud {
+  width:					190px;
+  height: 				120px;
+  background-image: 		url(ticklecloud.png);
+}
+
+#panda1 {
+  width:					32px;
+  height:					32px;
+  background-image:		url(panda1.png);
+  z-index: 				10;
+}
+
+#panda2 {
+  width:					32px;
+  height:					32px;
+  background-image:		url(panda2.png);
+  z-index: 				10;
+}
+
+#panda3 {
+  width:					32px;
+  height:					32px;
+  background-image:		url(panda3.png);
+  z-index: 				10;
+}
+
+#panda4 {
+  width:					32px;
+  height:					32px;
+  background-image:		url(panda2.png);
+  z-index: 				10;
+}
+
+
+
+
+

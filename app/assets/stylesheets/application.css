@@ -11,3 +11,217 @@
  *= require_self
  *= require_tree .
  */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* this css file serves as a general layout for all pages */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* This file is the template style for the whole application  */
+
+body {
+    font-size: 						100%;
+    color: 							white;
+    background-image: 				url(background1.png);
+    background-size: 				100% auto;
+    background-attachment:			fixed;
+    background-repeat: 				repeat-x;
+    font-family: 					verdana;
+}
+
+nav {
+    position: 						absolute;
+    width: 							100%;
+    height: 						4%;
+    min-height: 					25px;
+    top: 							0%;
+    right:							0%;
+    left: 							0%;
+    margin: 						0% 5% 5% 0%;
+    padding: 						0% 10% 2% 2%;
+    background-image: 				linear-gradient(bottom, #000000 44%, #C0C0C0 100%);
+    background-image: 				-moz-linear-gradient(bottom, #000000 44%, #C0C0C0 100%);
+    background-image: 				-webkit-linear-gradient(bottom, #000000 44%, #C0C0C0 100%);
+    color: 							#B20000;
+}
+
+nav header {
+    text-align: 				left;
+    font-family: 				'Caesar Dressing', cursive;
+    color: 						white;
+}
+
+nav header h1 {
+    font-size: 					180%;
+}
+
+nav ul {
+    text-align: 				right;
+    font: 						90%;
+    text-shadow: 				1px 1px 1px #000
+}
+
+nav ul li {
+    display: 					inline;
+    list-style-type: 			none;
+}
+
+nav ul li a {
+    text-decoration: 			none;
+}
+
+nav ul li a:visited {
+    color:						white;
+}
+
+nav ul li a:hover {
+    color:						#ffff0f;
+}
+
+#format1 {
+    margin-left: 				2%;
+}
+
+
+#page_content {
+    width: 						100%;
+    max-width: 					1200px;
+}
+
+#center_stage {
+    position: 					absolute;
+    top: 						5%;
+    right: 						16%;
+    bottom: 					20%;
+    left: 						16%;
+    height: 					auto;
+    width: 						64%;
+    margin: 					5% 4% 5% 4%;
+    color: 						#B20000;
+}
+
+
+#left_col {
+    position:				absolute;
+    top: 					10%;
+    right: 					86%;
+    bottom: 				0%;
+    left: 					0%;
+    height: 				auto;
+    min-height: 			600px;
+    width: 					10%;
+    z-index:				10;
+    padding: 				2% 1% 2% 1%;
+    margin: 				2% 2% 0% 0%;
+    background:		 		rgba(28,0,0,0.6);
+    color: 					#000000;
+    border: 				#fdfffd;
+    border-style: 			solid;
+}
+
+#left_col ul {
+    text-align: 			center;
+}
+
+#left_col ul li a {
+    color:					white;
+    text-decoration: 		none;
+    font-family: 			'Caesar Dressing', sans-serif;
+}
+
+#social ul li {
+    display:				inline;
+    list-style-type: 		none;
+}
+
+#social ul li img {
+    background: 			white;
+    overflow: 				hidden;
+    margin:					2%;
+    border: 				1px white solid;
+    border-radius: 			5px;
+}
+
+#right_col {
+    position:				absolute;
+    top: 					10%;
+    right: 					0%;
+    bottom: 				0%;
+    left: 					84%;
+    height: 				auto;
+    min-height: 			600px;
+    width: 					10%;
+    max-width: 				140px;
+    min-width: 				100px;
+    z-index:				10;
+    padding: 				2% 2% 2% 2%;
+    margin: 				2% 0% 0% 2%;
+    background:		 		rgba(28,0,0,0.6);
+    color: 					#000000;
+    border: 				#fdfffd;
+    border-style: 			solid;
+}
+
+#googleAds {
+    background: 				#000000;
+    opacity:					1.0;
+    margin-left: 				-10%;
+    width:						80%;
+    max-width: 					120px;
+}
+
+footer {
+    position:					absolute;
+    top:						20%;
+    bottom:						0%;
+    margin-top: 				600px;
+    font-size: 					60%;
+    width:						100%;
+    height:						5%;
+    text-align: 				center;
+}
