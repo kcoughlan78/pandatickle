@@ -142,9 +142,13 @@ nav ul li a:hover {
     height: 					auto;
     width: 						64%;
     margin: 					5% 4% 5% 4%;
-    color: 						#B20000;
 }
 
+.development {
+    font-size:                  120%;
+    font-weight:                600;
+    color:                      white;
+}
 
 #left_col {
     position:				absolute;
