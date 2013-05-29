@@ -61,7 +61,7 @@
       </ul>
     </div>
   </section>
-<%= yield %>
+<%= yield :center %>
   <section id="right_col">
     <div id="googleAds">
       <%= image_tag("googleAds.jpg", alt: "GoogleAds")%>
@@ -70,5 +70,6 @@
   <footer>Copyright Hut 41</footer>
 </section>
 <%= javascript_include_tag "Sprite3D" %>
+<% yield :scripts %>
 </body>
 </html>
