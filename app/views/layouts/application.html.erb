@@ -5,10 +5,70 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <title>Panda Tickle</title>
+  <link href='http://fonts.googleapis.com/css?family=Caesar+Dressing' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+  <script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('article');
+      document.createElement('aside');
+      document.createElement('footer');
+  </script>
 </head>
 <body>
-
+<nav>
+  <header><h1>PANDA TICKLE</h1></header>
+    <ul>
+      <li>Login</li>
+      <li>or</li>
+      <li>Register</li>
+      <li>Contact Us</li>
+    </ul>
+</nav>
+<section id="page_content">
+  <section id="left_col">
+    <ul>
+      <li><%= link_to(image_tag("icon1.png", alt: "Home"), root_url, title: "Home")%></li>
+      <li>Home</li>
+      <br>
+      <br>
+      <br>
+      <br>
+      <li><%= link_to(image_tag("icon2.png", alt: "Play Game"), root_url, title: "Play Game")%></li>
+      <li>Tickle Panda</li>
+      <br>
+      <br>
+      <br>
+      <br>
+      <li><%= link_to(image_tag("icon3.png", alt: "Panda Facts"), root_url, title: "Facts")%></li>
+      <li>Learn about Panda</li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="social">
+      <ul>
+        <li><%= image_tag("twitter_2.png", alt: "Twitter")%></li>
+        <li><%= image_tag("google_plus.png", alt: "Google+")%></li>
+        <li><%= image_tag("fb_1.png", alt: "Facebook")%></li>
+        <li><%= image_tag("email.png", alt: "Contact Us")%></li>
+      </ul>
+    </div>
+  </section>
 <%= yield %>
-
+  <section id="right_col">
+    <div id="googleAds">
+      <%= image_tag("googleAds.jpg", alt: "GoogleAds")%>
+    </div>
+  </section>
+  <footer>Copyright Hut 41</footer>
+</section>
+<%= javascript_include_tag "Sprite3D" %>
 </body>
 </html>
