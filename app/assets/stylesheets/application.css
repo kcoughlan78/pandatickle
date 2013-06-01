@@ -216,7 +216,7 @@ nav ul li a:hover {
     opacity:					1.0;
     margin-left: 				-10%;
     width:						80%;
-    max-width: 					120px;
+    max-width: 					90%;
 }
 
 footer {
@@ -228,4 +228,8 @@ footer {
     width:						100%;
     height:						5%;
     text-align: 				center;
+}
+
+@media only screen and (max-width: 380px) {
+
 }
