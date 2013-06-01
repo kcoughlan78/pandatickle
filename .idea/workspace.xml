@@ -14,7 +14,7 @@
     <file path="/application.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370091430797" ignored="false" />
     <file path="/index.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1369824044672" ignored="false" />
     <file path="/production.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1369818790321" ignored="false" />
-    <file path="/application.css" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370093174893" ignored="false" />
+    <file path="/application.css" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370093613166" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
       <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="279" column="47" selection-start="6072" selection-end="6072" vertical-scroll-proportion="0.8153846">
+            <state line="233" column="36" selection-start="5094" selection-end="5094" vertical-scroll-proportion="0.8153846">
               <folding />
             </state>
           </provider>
@@ -914,7 +914,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="279" column="47" selection-start="6072" selection-end="6072" vertical-scroll-proportion="0.8153846">
+        <state line="233" column="36" selection-start="5094" selection-end="5094" vertical-scroll-proportion="0.8153846">
           <folding />
         </state>
       </provider>
