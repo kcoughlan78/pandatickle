@@ -184,7 +184,6 @@ var display_tick = (function ()	{
 //removes time and inserts appropriate innerHTML
 var remove_tick = (function() {
     timer.innerHTML = "<p>Time left: 0</p>";
-    message.innerHTML = "<p>Game Over</p>";
 })
 //sets the interval the for countdown
 var countdownTimer = setInterval( function() {
@@ -301,7 +300,7 @@ function runAnimation()
     }
     else
     {
-        gameOver();
+        endGame();
     }
 
     //when there are panda objects in pandaGang array run animation
