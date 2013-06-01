@@ -13,7 +13,7 @@
     <file path="/routes.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370096964643" ignored="false" />
     <file path="/application.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370112312320" ignored="false" />
     <file path="/index.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370109536254" ignored="false" />
-    <file path="/production.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370120262079" ignored="false" />
+    <file path="/production.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370121230096" ignored="false" />
     <file path="/application.css" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370114756830" ignored="false" />
     <file path="/games_controller.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370119240898" ignored="false" />
     <file path="/_form.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370114620247" ignored="false" />
@@ -46,19 +46,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pandatickle.js.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pandatickle.js.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/pandatickle.js.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="185" column="44" selection-start="7916" selection-end="7916" vertical-scroll-proportion="0.18936877">
+            <state line="185" column="44" selection-start="7916" selection-end="7916" vertical-scroll-proportion="-2.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="73" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0">
+            <state line="48" column="87" selection-start="1903" selection-end="1903" vertical-scroll-proportion="0.83076924">
               <folding />
             </state>
           </provider>
@@ -151,8 +151,8 @@
         <option value="$PROJECT_DIR$/app/views/games/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/controllers/games_controller.rb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/pandatickle.js.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -917,16 +917,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/pandatickle.js.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="73" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0">
+        <state line="185" column="44" selection-start="7916" selection-end="7916" vertical-scroll-proportion="-2.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/pandatickle.js.erb">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="44" selection-start="7916" selection-end="7916" vertical-scroll-proportion="0.18936877">
+        <state line="48" column="87" selection-start="1903" selection-end="1903" vertical-scroll-proportion="0.83076924">
           <folding />
         </state>
       </provider>
