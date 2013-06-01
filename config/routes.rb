@@ -3,6 +3,8 @@ Pandatickle::Application.routes.draw do
 
   get "games/pandatickle"
 
+  resources :games
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

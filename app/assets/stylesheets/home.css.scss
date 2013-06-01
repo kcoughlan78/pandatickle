@@ -10,28 +10,28 @@ nav {
   max-width: 				1200px;
 }
 
-#floor {
+#introfloor {
   width:					400px;
   height:					400px;
   background-image:		url(ground.jpg);
   z-index: 				5;
 }
 
-#backdrop {
+#introbackdrop {
   width:					400px;
   height: 				300px;
   background-image:		url(sky1.png);
   z-index: 				5;
 }
 
-#hill {
+#introhill {
   width: 					400px;
   height:					180px;
   background-image: 		url(hill.png);
   z-index: 				5;
 }
 
-#tree_right1 {
+#introtree_right1 {
   width: 					80px;
   height:					180px;
   background-image:		url(tree2.png);
@@ -40,7 +40,7 @@ nav {
   overflow: 				visible;
 }
 
-#tree_right2 {
+#introtree_right2 {
   width: 					110px;
   height:					200px;
   background-image:		url(tree3.png);
@@ -48,7 +48,7 @@ nav {
   z-index: 				5;
 }
 
-#tree_right3 {
+#introtree_right3 {
   width: 					80px;
   height:					220px;
   background-image:		url(tree1.png);
@@ -56,7 +56,7 @@ nav {
   z-index: 				4;
 }
 
-#tree_left1 {
+#introtree_left1 {
   width: 					80px;
   height:					220px;
   background-image:		url(tree1.png);
@@ -64,7 +64,7 @@ nav {
   z-index: 				5;
 }
 
-#tree_left2 {
+#introtree_left2 {
   width: 					80px;
   height:					220px;
   background-image:		url(tree1.png);
@@ -72,7 +72,7 @@ nav {
   z-index: 				5;
 }
 
-#tree_left3 {
+#introtree_left3 {
   width: 					80px;
   height:					180px;
   background-image:		url(tree2.png);
@@ -80,7 +80,7 @@ nav {
   z-index: 				5;
 }
 
-#tree_back1 {
+#introtree_back1 {
   width: 					144px;
   height:					195px;
   background-image:		url(tree4.png);
@@ -88,7 +88,7 @@ nav {
   z-index: 				5;
 }
 
-#backgrass {
+#introbackgrass {
   width:					450px;
   height:					137px;
   background-image:		url(backgrass.png);
@@ -96,14 +96,14 @@ nav {
   z-index: 				5;
 }
 
-#undergrowth1 {
+#introundergrowth1 {
   width:					400px;
   height:					20px;
   background-image: 		url(grass1.png);
 }
 
 
-#sun {
+#introsun {
   width:					80px;
   height: 				80px;
   border-radius: 			50% 50% 50% 50%;
@@ -113,40 +113,40 @@ nav {
   z-index: 				10;
 }
 
-#pandacloud {
+#intropandacloud {
   width: 					150px;
   height: 				85px;
   background-image: 		url(pandacloud.png);
 }
 
-#ticklecloud {
+#introticklecloud {
   width:					190px;
   height: 				120px;
   background-image: 		url(ticklecloud.png);
 }
 
-#panda1 {
+#intropanda1 {
   width:					32px;
   height:					32px;
   background-image:		url(panda1.png);
   z-index: 				10;
 }
 
-#panda2 {
+#intropanda2 {
   width:					32px;
   height:					32px;
   background-image:		url(panda2.png);
   z-index: 				10;
 }
 
-#panda3 {
+#intropanda3 {
   width:					32px;
   height:					32px;
   background-image:		url(panda3.png);
   z-index: 				10;
 }
 
-#panda4 {
+#intropanda4 {
   width:					32px;
   height:					32px;
   background-image:		url(panda2.png);
@@ -155,7 +155,7 @@ nav {
 
 @media only screen and (max-width: 380px) {
 
-  #container {
+  #introcontainer {
     margin-top: 10%;
   }
 

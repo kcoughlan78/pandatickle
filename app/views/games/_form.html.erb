@@ -1,0 +1,14 @@
+<%= form_for(@game) do |game| %>
+    <div>
+      <p><span class="form_text">Player:</span></p>
+      <%= game.text_field :player, class: 'text_field' %>
+      <br>
+      <br>
+      <p><span class="form_text"><%= game.label :score %></span></p>
+      <%= game.text_field :score, :readonly => true, id: 'input_score', class: 'text_field' %>
+      <br>
+      <br>
+      <%= game.submit "Post Score", class: 'button' %>
+    </div>
+    <br>
+<% end %>

@@ -1,2 +1,39 @@
-<h1>Games#pandatickle</h1>
-<p>Find me in app/views/games/pandatickle.html.erb</p>
+<% content_for :head do %>
+    <title>Panda Tickle: Game</title>
+    <%= stylesheet_link_tag "games", :media => "all" %>
+<% end %>
+<% content_for :center do %>
+<audio id="gamemusic" class="gamesound">
+  <source src= "<%= asset_path('FreedomDance.wav') %>" type="audio/wav">
+</audio>
+    <audio id="pandalaugh">
+      <source src="<%= asset_path('heehee.wav') %>" type="audio/wav">
+    </audio>
+<% end %>
+<% content_for :right do %>
+<%= render "form" %>
+    <br>
+    <h2><span class="head2">Leaders</span></h2>
+    <br>
+    <table>
+      <tr>
+        <th>Player</th>
+        <th>Score</th>
+      </tr>
+
+      <% @games.each do |games| %>
+          <tr>
+            <td><%= games.player %></td>
+            <td><%= games.score %></td>
+          </tr>
+          <tr>
+          </tr>
+      <% end %>
+    </table>
+
+
+<% end %>
+<% content_for :scripts do %>
+    <% javascript_include_tag "pandatickle" %>
+<% end %>
+
