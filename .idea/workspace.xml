@@ -13,7 +13,7 @@
     <file path="/routes.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370096964643" ignored="false" />
     <file path="/application.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370112312320" ignored="false" />
     <file path="/index.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370121455399" ignored="false" />
-    <file path="/production.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370121230096" ignored="false" />
+    <file path="/production.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370121703407" ignored="false" />
     <file path="/application.css" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370114756830" ignored="false" />
     <file path="/games_controller.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370119240898" ignored="false" />
     <file path="/_form.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370114620247" ignored="false" />
@@ -46,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="74" selection-start="422" selection-end="422" vertical-scroll-proportion="0.64784056">
+            <state line="13" column="74" selection-start="422" selection-end="422" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
@@ -64,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="87" selection-start="1903" selection-end="1903" vertical-scroll-proportion="0.0">
+            <state line="18" column="78" selection-start="645" selection-end="645" vertical-scroll-proportion="0.6">
               <folding />
             </state>
           </provider>
@@ -150,9 +150,9 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/controllers/games_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/pandatickle.js.erb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/games/pandatickle.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -903,13 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="87" selection-start="1903" selection-end="1903" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/games.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="273" column="60" selection-start="5934" selection-end="5934" vertical-scroll-proportion="0.0">
@@ -926,7 +919,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="74" selection-start="422" selection-end="422" vertical-scroll-proportion="0.64784056">
+        <state line="13" column="74" selection-start="422" selection-end="422" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="78" selection-start="645" selection-end="645" vertical-scroll-proportion="0.6">
           <folding />
         </state>
       </provider>
