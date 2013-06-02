@@ -64,4 +64,7 @@ Pandatickle::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
+  ENV['TWITTER_KEY'] = 'sMpfbcJVWmSSCL85C2VwZQ'
+  ENV['TWITTER_SECRET'] = 'SN2bu6HOsC2UIshdTnjnn6M1JhA0jYkMR5p7v7SBhE'
+
 end
