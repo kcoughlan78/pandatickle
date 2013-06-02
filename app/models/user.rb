@@ -10,6 +10,6 @@ class User < ActiveRecord::Base
   end
 
   def self.from_omniauth(auth)
-    where(auth.slice('provider', 'uid')).first || create_from_omniauth(auth)
+    where(auth.slice('provider', 'uid', 'info', 'nickname')).first || create_from_omniauth(auth)
   end
 end
