@@ -21,7 +21,7 @@
     <file path="/games.css.scss" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370114556790" ignored="false" />
     <file path="/game.js" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370110069630" ignored="false" />
     <file path="/pandatickle.js.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370120289810" ignored="false" />
-    <file path="/omniauth.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370177238920" ignored="false" />
+    <file path="/omniauth.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370200570859" ignored="false" />
     <file path="/user.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370199781003" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,7 @@
       <file leaf-file-name="omniauth.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/omniauth.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+            <state line="3" column="3" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessions_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sessions_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+            <state line="2" column="49" selection-start="111" selection-end="111" vertical-scroll-proportion="0.092307694">
               <folding />
             </state>
           </provider>
@@ -111,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="31" selection-start="399" selection-end="399" vertical-scroll-proportion="0.6923077">
+            <state line="15" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,10 +151,10 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/config/initializers/omniauth.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/omniauth.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
       </list>
     </option>
   </component>
@@ -932,13 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/omniauth.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="55" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
@@ -953,16 +946,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/omniauth.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="399" selection-end="399" vertical-scroll-proportion="0.6923077">
+        <state line="3" column="3" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="49" selection-start="111" selection-end="111" vertical-scroll-proportion="0.092307694">
           <folding />
         </state>
       </provider>
