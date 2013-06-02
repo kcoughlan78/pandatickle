@@ -5,7 +5,7 @@ Pandatickle::Application.routes.draw do
 
   resources :games
 
-  match 'auth/twitter/callback', to: 'sessions#create'
+  match 'auth/:provider/callback', to: 'sessions#create'
   match 'signout', to: 'sessions#destroy', as: 'signout'
   match 'auth/failure', to: redirect('/')
 
