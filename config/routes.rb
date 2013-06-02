@@ -6,6 +6,8 @@ Pandatickle::Application.routes.draw do
   resources :games
 
   match 'auth/twitter/callback', to: 'sessions#create'
+  match 'signout', to: 'sessions#destroy', as: 'signout'
+  match 'auth/failure', to: redirect('/')
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

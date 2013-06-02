@@ -21,7 +21,12 @@
 <nav>
   <header><h1>PANDA TICKLE</h1></header>
     <ul>
-      <li><%= link_to "Sign in with Twitter", "/auth/twitter"%></li>
+      <% if current_user %>
+          <li>Signed in as <%= current_user.name %></li>
+          <li><%= link_to "Sign out", signout_path %></li>
+      <% else %>
+          <li><%= link_to "Sign in with Twitter", "/auth/twitter"%></li>
+      <% end %>
       <li>or</li>
       <li>Register</li>
       <li>Contact Us</li>
