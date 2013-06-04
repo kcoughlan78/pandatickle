@@ -21,7 +21,6 @@
         <th>Player</th>
         <th>Score</th>
       </tr>
-      <%= will_paginate @games %>
       <% @games.each do |games| %>
           <tr>
             <td><%= games.player %></td>
