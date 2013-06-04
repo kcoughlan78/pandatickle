@@ -1,4 +1,6 @@
 Pandatickle::Application.routes.draw do
+  get "aboutapp/about"
+
   get "home/index"
 
   get "games/pandatickle"

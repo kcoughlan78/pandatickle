@@ -1,0 +1,75 @@
+<% content_for :head do %>
+    <title>Panda Tickle: About the App</title>
+    <%= stylesheet_link_tag "aboutapp.css.scss", :media => "all" %>
+<% end %>
+
+<% content_for :center do %>
+    <h2><span class="head2">About the App</span></h2>
+    <p>This is a Edutainment application that uses the following;</p>
+    <ul>
+      <li>HTML5, particularly canvas</li>
+      <li>CSS3</li>
+      <li>Sprite3D (JS API for 3D transforms)</li>
+      <li>Javascript</li>
+      <li>jQuery</li>
+      <li>Ruby on Rails</li>
+    </ul>
+    <p>The purpose of the application is to educate children about Pandas and conservation while also providing a fun
+    and simple game for them to play.</p>
+
+    <h3>Features</h3>
+    <p>Below are two lists, on the left are current site features, on the right are features to come. Both these lists
+    will be updated in the coming weeks. Also on the right you will see a twitter feed from my account, this will
+    include updates on the application development for Panda Tickle and other projects I am working on at present.</p>
+    <table>
+      <thead>
+      <tr>
+      <th>Current Features</th>
+      <th>Pending Features</th>
+      </tr>
+      </thead>
+      <tfoot>
+      <tr></tr>
+      </tfoot>
+      <tbody>
+      <tr>
+        <td>CSS 3D Animation on Home Page</td>
+        <td>Make game playable on a mobile device</td>
+      </tr>
+      <tr>
+        <td>Combination of CSS 3D and HTML5 canvas for game</td>
+        <td>Make site design responsive</td>
+      </tr>
+      <tr>
+        <td>Use of audio tags for game events</td>
+        <td>Add more game controls eg mute button</td>
+      </tr>
+      <tr>
+        <td>Post game scores</td>
+        <td>Sign in with Facebook and Google+</td>
+      </tr>
+      <tr>
+        <td>CSS3 slide show, in Panda Facts</td>
+        <td>Add game levels</td>
+      </tr>
+      <tr>
+        <td>Sign in with your Twitter ID</td>
+        <td>Add user feedback</td>
+      </tr>
+      </tbody>
+    </table>
+
+<% end %>
+
+<% content_for :right do %>
+    <div id="twitfeed">
+      <h2>Dev Update</h2>
+      <br>
+      <ol id="twitter_update_list">
+        <li class="tweet"></li>
+      </ol>
+      <!-- below code taken from Twitter developer help have used my own twitter account to test the code and layout as the gallery haven't yet set up their twitter-->
+      <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+      <script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/kcoughlan78.json?callback=twitterCallback2&amp;count=10"></script>
+    </div>
+<% end %>

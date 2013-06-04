@@ -87,7 +87,7 @@ nav {
     background-image: 				linear-gradient(bottom, #000000 44%, #C0C0C0 100%);
     background-image: 				-moz-linear-gradient(bottom, #000000 44%, #C0C0C0 100%);
     background-image: 				-webkit-linear-gradient(bottom, #000000 44%, #C0C0C0 100%);
-    color: 							#B20000;
+    color: 							#ffffff;
 }
 
 nav header {
@@ -142,7 +142,7 @@ nav ul li a:hover {
     background:                 transparent;
     height: 					auto;
     width: 						64%;
-    margin: 					5% 4% 5% 4%;
+    margin: 					auto;
 }
 
 .development {
@@ -213,13 +213,6 @@ nav ul li a:hover {
     border-style: 			solid;
 }
 
-#googleAds {
-    background: 				#000000;
-    opacity:					1.0;
-    margin-left: 				-10%;
-    width:						80%;
-    max-width: 					90%;
-}
 
 footer {
     position:					absolute;
@@ -254,6 +247,46 @@ footer {
 
 img {
     max-width:                  100%;
+}
+
+/* styling for twitter feed */
+
+#twitfeed {
+    background: #f5f5f5;
+    padding: 2.5%;
+    border: #000000 1px solid;
+    border-top-left-radius: 5% 5%;
+    border-top-right-radius: 5% 5%;
+    border-bottom-left-radius: 5% 5%;
+    border-bottom-right-radius: 5% 5%;
+    /* below ensures correct output for MFF*/
+    -moz-border-top-left-radius: 5% 5%;
+    -moz-border-top-right-radius: 5% 5%;
+    -moz-border-bottom-left-radius: 5% 5%;
+    -moz-border-bottom-right-radius: 5% 5%;
+    /* below is for safari */
+    -webkit-border-top-left-radius: 5%;
+    -webkit-border-top-right-radius: 5%;
+    -webkit-border-bottom-left-radius: 5%;
+    -webkit-border-bottom-right-radius: 5%;
+}
+
+
+#twitfeed a, a:link, a:visited {
+    color: #b20000;
+}
+
+#twitter_update_list {
+    margin: 1%;
+}
+
+#twitter_update_list li {
+    background-color: #f5f5f5;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 60%;
+    margin-bottom: 1%;
 }
 
 @media only screen and (max-width: 380px) {
