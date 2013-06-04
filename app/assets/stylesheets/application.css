@@ -133,12 +133,11 @@ nav ul li a:hover {
     max-width: 					1200px;
 }
 
-#center_stage {
+#mid_section {
     position: 					relative;
-    background:		 		    red;
     height: 					auto;
     width: 						64%;
-    margin: 					auto;
+    margin: 					15% auto auto auto;
 }
 
 .development {
@@ -329,14 +328,6 @@ img {
         min-height: 			400px;
         width: 					10%;
         max-width: 				40px;
-    }
-
-    #googleAds {
-        background: 				#000000;
-        opacity:					1.0;
-        margin-left: 				-10%;
-        width:						80%;
-        max-width: 					90%;
     }
 
     footer {
