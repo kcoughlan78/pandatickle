@@ -135,11 +135,6 @@ nav ul li a:hover {
 
 #center_stage {
     position: 					absolute;
-    top: 						5%;
-    right: 						16%;
-    bottom: 					20%;
-    left: 						16%;
-    background:                 transparent;
     height: 					auto;
     width: 						64%;
     margin: 					auto;
