@@ -18,6 +18,6 @@ class GamesController < ApplicationController
 
   def pandatickle
     @game = Game.new
-    @games = Game.paginate(:page => params[:page], :per_page => 10).order("score DESC")
+    @games = Game.order("score DESC").paginate(:page => params[:page], :per_page => 10)
   end
 end
