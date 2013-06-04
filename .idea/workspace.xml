@@ -14,7 +14,7 @@
     <file path="/application.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370375667543" ignored="false" />
     <file path="/index.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370377657095" ignored="false" />
     <file path="/production.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370375363432" ignored="false" />
-    <file path="/application.css" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370377706574" ignored="false" />
+    <file path="/application.css" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370380970089" ignored="false" />
     <file path="/games_controller.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370364962527" ignored="false" />
     <file path="/_form.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370114620247" ignored="false" />
     <file path="/pandatickle.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370364311185" ignored="false" />
@@ -23,8 +23,8 @@
     <file path="/pandatickle.js.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370120289810" ignored="false" />
     <file path="/omniauth.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370200570859" ignored="false" />
     <file path="/user.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370203111921" ignored="false" />
-    <file path="/about.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370377736950" ignored="false" />
-    <file path="/aboutapp.css.scss" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370380362923" ignored="false" />
+    <file path="/about.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370380997132" ignored="false" />
+    <file path="/aboutapp.css.scss" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370380888458" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="about.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/aboutapp/about.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="12" selection-start="1999" selection-end="1999" vertical-scroll-proportion="-37.5">
+            <state line="8" column="10" selection-start="277" selection-end="277" vertical-scroll-proportion="0.26785713">
               <folding />
             </state>
           </provider>
@@ -97,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutapp.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="aboutapp.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/aboutapp.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="41" selection-start="870" selection-end="870" vertical-scroll-proportion="0.7113402">
+            <state line="37" column="35" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,7 +118,7 @@
       <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="263" column="50" selection-start="5507" selection-end="6062" vertical-scroll-proportion="0.0">
+            <state line="140" column="34" selection-start="3314" selection-end="3314" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -155,10 +155,10 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/aboutapp/about.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/aboutapp.css.scss" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/views/aboutapp/about.html.erb" />
       </list>
     </option>
   </component>
@@ -967,13 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/aboutapp/about.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="12" selection-start="1999" selection-end="1999" vertical-scroll-proportion="-37.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="2" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
@@ -981,16 +974,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/aboutapp.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="263" column="50" selection-start="5507" selection-end="6062" vertical-scroll-proportion="0.0">
+        <state line="37" column="35" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/aboutapp.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="41" selection-start="870" selection-end="870" vertical-scroll-proportion="0.7113402">
+        <state line="140" column="34" selection-start="3314" selection-end="3314" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/aboutapp/about.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="277" selection-end="277" vertical-scroll-proportion="0.26785713">
           <folding />
         </state>
       </provider>
