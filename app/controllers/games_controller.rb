@@ -18,6 +18,6 @@ class GamesController < ApplicationController
 
   def pandatickle
     @game = Game.new
-    @games = Game.order("score DESC")
+    @games = Game.order("score DESC").page(params[:page])
   end
 end
