@@ -15,7 +15,7 @@
     <file path="/index.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370121455399" ignored="false" />
     <file path="/production.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370121703407" ignored="false" />
     <file path="/application.css" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370114756830" ignored="false" />
-    <file path="/games_controller.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370364329649" ignored="false" />
+    <file path="/games_controller.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370364962527" ignored="false" />
     <file path="/_form.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370114620247" ignored="false" />
     <file path="/pandatickle.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370364311185" ignored="false" />
     <file path="/games.css.scss" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370114556790" ignored="false" />
@@ -114,7 +114,7 @@
       <file leaf-file-name="games_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="73" selection-start="465" selection-end="465" vertical-scroll-proportion="0.6185567">
+            <state line="23" column="39" selection-start="490" selection-end="490" vertical-scroll-proportion="0.7113402">
               <folding />
             </state>
           </provider>
@@ -962,7 +962,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/games_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="73" selection-start="465" selection-end="465" vertical-scroll-proportion="0.6185567">
+        <state line="23" column="39" selection-start="490" selection-end="490" vertical-scroll-proportion="0.7113402">
           <folding />
         </state>
       </provider>
