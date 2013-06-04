@@ -21,7 +21,7 @@
         <th>Player</th>
         <th>Score</th>
       </tr>
-
+      <%= will_paginate %>
       <% @games.each do |games| %>
           <tr>
             <td><%= games.player %></td>
@@ -30,9 +30,10 @@
           <tr>
           </tr>
       <% end %>
+      <%= will_paginate %>
     </table>
 <% end %>
-<%= will_paginate %>
+
 <% content_for :scripts do %>
     <% javascript_include_tag "pandatickle" %>
 <% end %>

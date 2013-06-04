@@ -60,7 +60,7 @@
       <file leaf-file-name="pandatickle.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/games/pandatickle.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="20" selection-start="873" selection-end="873" vertical-scroll-proportion="0.87852496">
+            <state line="32" column="26" selection-start="882" selection-end="882" vertical-scroll-proportion="0.5770065">
               <folding />
             </state>
           </provider>
@@ -962,7 +962,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/games/pandatickle.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="20" selection-start="873" selection-end="873" vertical-scroll-proportion="0.87852496">
+        <state line="32" column="26" selection-start="882" selection-end="882" vertical-scroll-proportion="0.5770065">
           <folding />
         </state>
       </provider>
