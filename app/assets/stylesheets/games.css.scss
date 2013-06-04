@@ -280,8 +280,16 @@ table td {
 
 /* pagination styling */
 
-.previous_page {
+.pagination {
   font-family:                "Caesar Dressing", sans-serif;
   color:                      white;
+}
+
+.previous_page {
+  font-size:                  80%;
+}
+
+.next_page {
+  font-size:                  80%;
 }
 

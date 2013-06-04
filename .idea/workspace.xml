@@ -18,7 +18,7 @@
     <file path="/games_controller.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370364962527" ignored="false" />
     <file path="/_form.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370114620247" ignored="false" />
     <file path="/pandatickle.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370364311185" ignored="false" />
-    <file path="/games.css.scss" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370368466312" ignored="false" />
+    <file path="/games.css.scss" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370369094193" ignored="false" />
     <file path="/game.js" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370110069630" ignored="false" />
     <file path="/pandatickle.js.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370120289810" ignored="false" />
     <file path="/omniauth.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370200570859" ignored="false" />
@@ -60,7 +60,7 @@
       <file leaf-file-name="games.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/games.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="282" column="14" selection-start="6030" selection-end="6030" vertical-scroll-proportion="0.87628865">
+            <state line="289" column="38" selection-start="6184" selection-end="6184" vertical-scroll-proportion="0.62886596">
               <folding />
             </state>
           </provider>
@@ -962,7 +962,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/games.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="14" selection-start="6030" selection-end="6030" vertical-scroll-proportion="0.87628865">
+        <state line="289" column="38" selection-start="6184" selection-end="6184" vertical-scroll-proportion="0.62886596">
           <folding />
         </state>
       </provider>
