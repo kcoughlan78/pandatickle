@@ -1,0 +1,44 @@
+@import url("application.css");
+
+#mid_section {
+    background:		 		rgba(28,0,0,0.6);
+    color: 					#ffffff;
+    border: 				    #fdfffd;
+    border-style: 			solid;
+    border-top-left-radius: 5% 5%;
+    border-top-right-radius: 5% 5%;
+    border-bottom-left-radius: 5% 5%;
+    border-bottom-right-radius: 5% 5%;
+    /* below ensures correct output for MFF*/
+    -moz-border-top-left-radius: 5% 5%;
+    -moz-border-top-right-radius: 5% 5%;
+    -moz-border-bottom-left-radius: 5% 5%;
+    -moz-border-bottom-right-radius: 5% 5%;
+    /* below is for safari */
+    -webkit-border-top-left-radius: 5%;
+    -webkit-border-top-right-radius: 5%;
+    -webkit-border-bottom-left-radius: 5%;
+    -webkit-border-bottom-right-radius: 5%;
+    padding-top:                  2%;
+    padding-bottom:               2%;
+    font-size:                    90%;
+}
+
+#tech_list {
+    margin-left:                      1%;
+}
+
+#mid_section li {
+    list-style-type:                    square;
+}
+
+
+table {
+    background-color:               #ffffff;
+    color:                          black;
+    margin:                         auto;
+}
+
+table th {
+    font-weight:                    700;
+}
