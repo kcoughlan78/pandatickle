@@ -8,6 +8,18 @@
   <p><span class="development">under development</span></p>
 </section>
 <% end %>
+<% content_for :right do %>
+    <div id="twitfeed">
+      <h2>Dev Update</h2>
+      <br>
+      <ol id="twitter_update_list">
+        <li class="tweet"></li>
+      </ol>
+      <!-- below code taken from Twitter developer help have used my own twitter account to test the code and layout as the gallery haven't yet set up their twitter-->
+      <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+      <script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/kcoughlan78.json?callback=twitterCallback2&amp;count=10"></script>
+    </div>
+<% end %>
 <% content_for :scripts do %>
 <% javascript_include_tag "intro.js" %>
 <% end %>
