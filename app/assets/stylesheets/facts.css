@@ -47,13 +47,13 @@
 #panel1 {
     top:					0px;
     left:					0px;
-    background:				transparent url(../images/pandafact1.jpg) no-repeat top left;
+    background:				transparent url(pandafact1.jpg) no-repeat top left;
 }
 
 #panel2 {
     top:					500px;
     left:					0px;
-    background:				transparent url(../images/pandafact2.jpg) no-repeat top left;
+    background:				transparent url(pandafact2.jpg) no-repeat top left;
 }
 
 #panel3 {
@@ -62,7 +62,7 @@
     -webkit-transform: 		rotate(-90deg) translateY(1540px) translateX(160px);
     -moz-transform: 		rotate(-90deg) translateY(1540px) translateX(160px);
     -ms-transform: 			rotate(-90deg) translateY(1540px) translateX(160px);
-    background:				transparent url(../images/pandafact3.jpg) no-repeat top left;
+    background:				transparent url(pandafact3.jpg) no-repeat top left;
 }
 
 .fact {
