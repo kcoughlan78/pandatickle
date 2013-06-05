@@ -29,7 +29,7 @@
           <li><%= link_to "Sign in with Twitter", "/auth/twitter"%></li>
       <% end %>
       <li><%= link_to "About App", :controller => 'aboutapp', :action => 'about' %></li>
-      <li>Contact Us</li>
+      <li>Contact Me</li>
     </ul>
 </nav>
 <section id="page_content">
@@ -59,7 +59,7 @@
     <br>
     <div id="social">
       <ul>
-        <li><%= image_tag("twitter_2.png", alt: "Twitter")%></li>
+        <li><%= link_to(image_tag("twitter_2.png", alt: "Twitter"), "https://twitter.com/kcoughlan78") %></li>
         <li><%= image_tag("google_plus.png", alt: "Google+")%></li>
         <li><%= image_tag("fb_1.png", alt: "Facebook")%></li>
         <li><%= image_tag("email.png", alt: "Contact Us")%></li>
