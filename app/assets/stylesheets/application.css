@@ -74,6 +74,11 @@ body {
     font-family: 					verdana;
 }
 
+#contain_all {
+    height:                         100%;
+    width:                          100%;
+}
+
 nav {
     position: 						absolute;
     width: 							88%;

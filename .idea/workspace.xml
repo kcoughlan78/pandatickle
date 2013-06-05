@@ -11,10 +11,10 @@
     <file path="/game.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1369773200876" ignored="false" />
     <file path="/home.css.scss" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370113175272" ignored="false" />
     <file path="/routes.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370375517422" ignored="false" />
-    <file path="/application.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370375667543" ignored="false" />
+    <file path="/application.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370459319896" ignored="false" />
     <file path="/index.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370377657095" ignored="false" />
     <file path="/production.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370375363432" ignored="false" />
-    <file path="/application.css" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370380970089" ignored="false" />
+    <file path="/application.css" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370459293126" ignored="false" />
     <file path="/games_controller.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370364962527" ignored="false" />
     <file path="/_form.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370114620247" ignored="false" />
     <file path="/pandatickle.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370364311185" ignored="false" />
@@ -104,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="facts.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="facts.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/facts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="38" selection-start="164" selection-end="164" vertical-scroll-proportion="0.21649484">
+            <state line="7" column="38" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,19 +122,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="77" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0">
+            <state line="78" column="41" selection-start="2154" selection-end="2154" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="33" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.0">
+            <state line="74" column="6" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.703125">
               <folding />
             </state>
           </provider>
@@ -154,9 +154,7 @@
         <option value="$PROJECT_DIR$/app/controllers/games_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/games/pandatickle.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/aboutapp/about.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/aboutapp.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/facts.css.scss" />
@@ -166,6 +164,8 @@
         <option value="$PROJECT_DIR$/app/views/facts/pandafacts.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/games.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/facts.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -916,13 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="88" selection-start="1152" selection-end="1152" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/aboutapp/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="153" selection-end="212" vertical-scroll-proportion="-3.125">
@@ -969,13 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="33" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/games.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
@@ -999,7 +985,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/facts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="164" selection-end="164" vertical-scroll-proportion="0.21649484">
+        <state line="7" column="38" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="41" selection-start="2154" selection-end="2154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="6" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.703125">
           <folding />
         </state>
       </provider>
