@@ -1,0 +1,159 @@
+/* this css is for home page */
+@import url("application.css");
+
+
+#introfloor {
+    width:					400px;
+    height:					400px;
+    background-image:		url(../images/ground.jpg);
+    z-index: 				5;
+}
+
+#introbackdrop {
+    width:					400px;
+    height: 				300px;
+    background-image:		url(../images/sky1.png);
+    z-index: 				5;
+}
+
+#introhill {
+    width: 					400px;
+    height:					180px;
+    background-image: 		url(../images/hill.png);
+    z-index: 				5;
+}
+
+#introtree_right1 {
+    width: 					80px;
+    height:					180px;
+    background-image:		url(../images/tree2.png);
+    background-repeat: 		no-repeat;
+    z-index: 				5;
+    overflow: 				visible;
+}
+
+#introtree_right2 {
+    width: 					110px;
+    height:					200px;
+    background-image:		url(../images/tree3.png);
+    background-repeat: 		no-repeat;
+    z-index: 				5;
+}
+
+#introtree_right3 {
+    width: 					80px;
+    height:					220px;
+    background-image:		url(../images/tree1.png);
+    background-repeat: 		no-repeat;
+    z-index: 				4;
+}
+
+#introtree_left1 {
+    width: 					80px;
+    height:					220px;
+    background-image:		url(../images/tree1.png);
+    background-repeat: 		no-repeat;
+    z-index: 				5;
+}
+
+#introtree_left2 {
+    width: 					80px;
+    height:					220px;
+    background-image:		url(../images/tree1.png);
+    background-repeat: 		no-repeat;
+    z-index: 				5;
+}
+
+#introtree_left3 {
+    width: 					80px;
+    height:					180px;
+    background-image:		url(../images/tree2.png);
+    background-repeat: 		no-repeat;
+    z-index: 				5;
+}
+
+#introtree_back1 {
+    width: 					144px;
+    height:					195px;
+    background-image:		url(../images/tree4.png);
+    background-repeat: 		no-repeat;
+    z-index: 				5;
+}
+
+#introbackgrass {
+    width:					450px;
+    height:					137px;
+    background-image:		url(../images/backgrass.png);
+    background-repeat: 		no-repeat;
+    z-index: 				5;
+}
+
+#introundergrowth1 {
+    width:					400px;
+    height:					20px;
+    background-image: 		url(../images/grass1.png);
+}
+
+
+#introsun {
+    width:					80px;
+    height: 				80px;
+    border-radius: 			50% 50% 50% 50%;
+    background-image: 		linear-gradient(top, #A2000C 4%, #FFDE40 85%);
+    background-image: 		-moz-linear-gradient(top, #A2000C 4%, #FFDE40 85%);
+    background-image: 		-webkit-linear-gradient(top, #A2000C 4%, #FFDE40 85%);
+    z-index: 				10;
+}
+
+#intropandacloud {
+    width: 					150px;
+    height: 				85px;
+    background-image: 		url(../images/pandacloud.png);
+}
+
+#introticklecloud {
+    width:					190px;
+    height: 				120px;
+    background-image: 		url(../images/ticklecloud.png);
+}
+
+#intropanda1 {
+    width:					32px;
+    height:					32px;
+    background-image:		url(../images/panda1.png);
+    z-index: 				10;
+}
+
+#intropanda2 {
+    width:					32px;
+    height:					32px;
+    background-image:		url(../images/panda2.png);
+    z-index: 				10;
+}
+
+#intropanda3 {
+    width:					32px;
+    height:					32px;
+    background-image:		url(../images/panda3.png);
+    z-index: 				10;
+}
+
+#intropanda4 {
+    width:					32px;
+    height:					32px;
+    background-image:		url(../images/panda2.png);
+    z-index: 				10;
+}
+
+@media only screen and (max-width: 380px) {
+
+    #introcontainer {
+        margin-top: 10%;
+    }
+
+}
+
+
+
+
+

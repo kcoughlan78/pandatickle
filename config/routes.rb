@@ -1,4 +1,6 @@
 Pandatickle::Application.routes.draw do
+  get "facts/pandafacts"
+
   get "aboutapp/about"
 
   get "home/index"
