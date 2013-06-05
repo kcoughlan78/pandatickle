@@ -28,7 +28,7 @@
       <% else %>
           <li><%= link_to "Sign in with Twitter", "/auth/twitter"%></li>
       <% end %>
-      <li><%= link_to "about app", :controller => 'aboutapp', :action => 'about' %></li>
+      <li><%= link_to "About App", :controller => 'aboutapp', :action => 'about' %></li>
       <li>Contact Us</li>
     </ul>
 </nav>
@@ -36,7 +36,7 @@
   <section id="left_col">
     <ul>
       <li><%= link_to(image_tag("icon1.png", alt: "Home"), root_url, title: "Home")%></li>
-      <li>Home</li>
+      <li><%= link_to 'Home', root_url,  title: "Home" %></li>
       <br>
       <br>
       <br>
@@ -47,8 +47,8 @@
       <br>
       <br>
       <br>
-      <li><%= link_to(image_tag("icon3.png", alt: "Panda Facts"), root_url, title: "Facts")%></li>
-      <li>Learn about Panda</li>
+      <li><%= link_to(image_tag("icon3.png", alt: "Panda Facts"), :controller => 'facts', :action => 'pandafacts', title: "Facts")%></li>
+      <li><%= link_to 'Panda Facts', :controller => 'facts', :action => 'pandafacts',  title: "Panda Facts"  %></li>
     </ul>
     <br>
     <br>
