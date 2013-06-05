@@ -3,9 +3,9 @@
 
 #image_slider {
     position: 					relative;
+    margin:                     auto;
     width: 						800px;
     height: 					500px;
-    margin-top: 				5px;
     overflow: 					hidden;
     border: 					5px solid black;
 }
