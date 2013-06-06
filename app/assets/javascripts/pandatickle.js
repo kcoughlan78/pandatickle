@@ -71,7 +71,7 @@
 var pandas =
 {
     //image source, position and pixel details
-    IMAGE: "<%= asset_path('pandaspritesheet.png') %>", SPRITE_WIDTH: 32, SPRITE_HEIGHT: 32, COLUMN_NO: 3,
+    IMAGE: "/images/pandaspritesheet.png", SPRITE_WIDTH: 32, SPRITE_HEIGHT: 32, COLUMN_NO: 3,
     ORIGIN_X: 0, ORIGIN_Y: 0,
     //frame setting and details
     totalFrameNo: 5, currentFrameNo: 0,
@@ -392,11 +392,11 @@ function render()
 
         //draws the image using attributes defined earlier
         animationArea.drawImage
-                (
-                        image,
-                        pandas.ORIGIN_X, pandas.ORIGIN_Y, pandas.SPRITE_WIDTH, pandas.SPRITE_HEIGHT,
-                        0, 0, pandas.SPRITE_WIDTH, pandas.SPRITE_HEIGHT
-                );
+            (
+                image,
+                pandas.ORIGIN_X, pandas.ORIGIN_Y, pandas.SPRITE_WIDTH, pandas.SPRITE_HEIGHT,
+                0, 0, pandas.SPRITE_WIDTH, pandas.SPRITE_HEIGHT
+            );
     }
 }
 
