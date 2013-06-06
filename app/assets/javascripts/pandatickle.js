@@ -71,7 +71,7 @@
 var pandas =
 {
     //image source, position and pixel details
-    IMAGE: "/images/pandaspritesheet.png", SPRITE_WIDTH: 32, SPRITE_HEIGHT: 32, COLUMN_NO: 3,
+    IMAGE: "../images/pandaspritesheet.png", SPRITE_WIDTH: 32, SPRITE_HEIGHT: 32, COLUMN_NO: 3,
     ORIGIN_X: 0, ORIGIN_Y: 0,
     //frame setting and details
     totalFrameNo: 5, currentFrameNo: 0,
