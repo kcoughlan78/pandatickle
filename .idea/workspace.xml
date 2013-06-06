@@ -13,7 +13,7 @@
     <file path="/routes.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370375517422" ignored="false" />
     <file path="/application.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370464874173" ignored="false" />
     <file path="/index.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370377657095" ignored="false" />
-    <file path="/production.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370515123846" ignored="false" />
+    <file path="/production.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370516385874" ignored="false" />
     <file path="/application.css" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370466327756" ignored="false" />
     <file path="/games_controller.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370364962527" ignored="false" />
     <file path="/_form.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370114620247" ignored="false" />
@@ -46,10 +46,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="73" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.0">
+            <state line="19" column="39" selection-start="682" selection-end="682" vertical-scroll-proportion="0.58762884">
               <folding />
             </state>
           </provider>
@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pandatickle.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pandatickle.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/games/pandatickle.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="49" selection-start="923" selection-end="923" vertical-scroll-proportion="0.7483731">
+            <state line="35" column="49" selection-start="923" selection-end="923" vertical-scroll-proportion="-14.375">
               <folding />
             </state>
           </provider>
@@ -150,9 +150,9 @@
         <option value="$PROJECT_DIR$/app/views/aboutapp/about.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/games.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/pandatickle.js" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/pandatickle.js.erb" />
         <option value="$PROJECT_DIR$/app/views/games/pandatickle.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -857,6 +857,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/games/pandatickle.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="49" selection-start="923" selection-end="923" vertical-scroll-proportion="-14.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/pandatickle.js.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="50" selection-start="4102" selection-end="4102" vertical-scroll-proportion="-13.125">
@@ -866,14 +873,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="73" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/games/pandatickle.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="49" selection-start="923" selection-end="923" vertical-scroll-proportion="0.7483731">
+        <state line="19" column="39" selection-start="682" selection-end="682" vertical-scroll-proportion="0.58762884">
           <folding />
         </state>
       </provider>
