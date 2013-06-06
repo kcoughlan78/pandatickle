@@ -88,7 +88,7 @@ nav {
     right:							0%;
     left: 							0%;
     margin: 						0% 0% 5% 0%;
-    padding: 						0% 10% 2% 2%;
+    padding: 						0% 5% 2% 2%;
     background-image: 				linear-gradient(bottom, #000000 44%, #C0C0C0 100%);
     background-image: 				-moz-linear-gradient(bottom, #000000 44%, #C0C0C0 100%);
     background-image: 				-webkit-linear-gradient(bottom, #000000 44%, #C0C0C0 100%);
@@ -126,6 +126,10 @@ nav ul li a:visited {
 
 nav ul li a:hover {
     color:						#ffff0f;
+}
+
+.logged_in {
+    margin-right:               1%;
 }
 
 #format1 {

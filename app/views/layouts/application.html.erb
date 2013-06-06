@@ -23,13 +23,13 @@
   <header><h1>PANDA TICKLE</h1></header>
     <ul>
       <% if current_user %>
-          <li>Signed in as <%= current_user.name %></li>
+          <li><span class="logged_in">Signed in as <%= current_user.name %></span></li>
           <li><%= link_to "Sign out", signout_path %></li>
       <% else %>
           <li><%= link_to "Sign in with Twitter", "/auth/twitter"%></li>
       <% end %>
       <li><%= link_to "About App", :controller => 'aboutapp', :action => 'about' %></li>
-      <li>Contact Me</li>
+      <li><%= link_to "Contact Me", :controller => 'aboutapp', :action => 'contact' %></li>
     </ul>
 </nav>
 <section id="page_content">
