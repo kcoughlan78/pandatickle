@@ -31,9 +31,9 @@
     <file path="/Dummy.txt" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370428305418" ignored="false" />
     <file path="/facts.css" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370459031260" ignored="false" />
     <file path="/aboutapp_controller.rb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370517458707" ignored="false" />
-    <file path="/contact.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370517657057" ignored="false" />
+    <file path="/contact.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370524699388" ignored="false" />
     <file path="/credits.html.erb" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370523869232" ignored="false" />
-    <file path="/aboutapp.css" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370523914499" ignored="false" />
+    <file path="/aboutapp.css" changelist="884ece79-16d6-4725-8b02-000dd4fb3683" time="1370524732233" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <file leaf-file-name="contact.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/aboutapp/contact.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="144" selection-start="1682" selection-end="1682" vertical-scroll-proportion="-21.875">
+            <state line="6" column="24" selection-start="194" selection-end="194" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="aboutapp.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/aboutapp.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="31" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0">
+            <state line="146" column="14" selection-start="3602" selection-end="3602" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="71" selection-start="2706" selection-end="2706" vertical-scroll-proportion="0.0">
+            <state line="83" column="38" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.24742268">
               <folding />
             </state>
           </provider>
@@ -113,10 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="about.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/aboutapp/about.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="76" selection-start="2170" selection-end="2170" vertical-scroll-proportion="0.33035713">
+            <state line="66" column="76" selection-start="2170" selection-end="2170" vertical-scroll-proportion="-6.1666665">
               <folding />
             </state>
           </provider>
@@ -161,13 +161,13 @@
         <option value="$PROJECT_DIR$/app/controllers/aboutapp_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/games/pandatickle.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/aboutapp/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/views/games/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/aboutapp/credits.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/aboutapp.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/aboutapp/about.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/aboutapp/contact.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/aboutapp.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       </list>
     </option>
   </component>
@@ -944,23 +944,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/aboutapp/contact.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="144" selection-start="1682" selection-end="1682" vertical-scroll-proportion="-21.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/aboutapp/credits.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="4" selection-start="724" selection-end="724" vertical-scroll-proportion="-7.4166665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/aboutapp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="31" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -972,16 +958,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/views/aboutapp/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="71" selection-start="2706" selection-end="2706" vertical-scroll-proportion="0.0">
+        <state line="66" column="76" selection-start="2170" selection-end="2170" vertical-scroll-proportion="-6.1666665">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/aboutapp/about.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/aboutapp/contact.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="76" selection-start="2170" selection-end="2170" vertical-scroll-proportion="0.33035713">
+        <state line="6" column="24" selection-start="194" selection-end="194" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/aboutapp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="14" selection-start="3602" selection-end="3602" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="38" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.24742268">
           <folding />
         </state>
       </provider>

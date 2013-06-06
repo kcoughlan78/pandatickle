@@ -45,7 +45,7 @@ table th {
 
 /* styling for contact form */
 
-form {
+#contact form {
     width: 					40%;
     height:                 70%;
     background: 			#1c0000;
@@ -65,7 +65,7 @@ form {
     border-style: 			solid;
 }
 
-label {
+#contact label {
     position:				relative;
     clear:  				both;
     display: 				block;
@@ -74,9 +74,9 @@ label {
     margin-bottom: 			1%;
 }
 
-sup { color: #fff; }
+#contact sup { color: #fff; }
 
-input {
+#contact input {
     font-size:				180%;
     margin-bottom:			25px;
     border: 				1px solid #690011;
@@ -86,7 +86,7 @@ input {
     width: 					95%;
 }
 
-input:focus {
+#contact input:focus {
     border: 				2px solid #2c4081;
     -webkit-box-shadow:		none;
     -moz-box-shadow: 		none;
@@ -94,24 +94,24 @@ input:focus {
     box-shadow: 			none;
 }
 
-textarea {
+#contact textarea {
     font-size: 				170%;
     min-height: 			90px;
     width:					98%;
 }
 
-textarea:focus {
+#contact textarea:focus {
     border: 				2px solid #2c4081;
     -webkit-box-shadow:		none;
     -moz-box-shadow: 		none;
     box-shadow: 			none;
 }
 
-input:invalid { background: #efdee0 url(sadface.png) no-repeat center right; }
-input:valid { background: #f3f8ed url(happyface.png) no-repeat center right; }
+#contact input:invalid { background: #efdee0 url(sadface.png) no-repeat center right; }
+#contact input:valid { background: #f3f8ed url(happyface.png) no-repeat center right; }
 
 
-input[type=submit] {
+#contact input[type=submit] {
     background: 			#FFFFFF;
     display: 				inline-block;
     padding: 				5px 10px 5px 6px;
@@ -135,12 +135,12 @@ input[type=submit] {
     -webkit-transition: 	all 0.4s linear
 }
 
-input[type=submit]:hover	{
+#contact input[type=submit]:hover	{
     background-color: 		#FFFFF2;
     border:					solid black;
 }
 
-.midButton {
+#contact .midButton {
     text-align: 		center;
 }
 
