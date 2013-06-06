@@ -47,10 +47,11 @@ table th {
 
 form {
     width: 					40%;
+    height:                 70%;
     background: 			#1c0000;
     background: 			rgba(8,22,68,0.8);
     padding: 				20px 30px;
-    margin: 				0 auto;
+    margin: 				8% auto;
     color: 					#ffffff;
     overflow: 				hidden;
     -moz-border-radius:  	5%;
