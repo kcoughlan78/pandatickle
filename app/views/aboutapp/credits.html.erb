@@ -1,0 +1,34 @@
+<% content_for :head do %>
+    <title>Panda Tickle: Credits</title>
+    <%= stylesheet_link_tag "aboutapp", :media => "all" %>
+<% end %>
+
+<% content_for :center do %>
+    <h2><span class="head2">Credits</span></h2>
+    <br>
+    <p>Below are a list of credits for assets used in creating the app.</p>
+    <br>
+    <p>Games Music: Freedom Dance, UniqueTracks Production Music Library</p>
+    <p>Panda Animation Images: Nexon Wizet, The Spriters Resource</p>
+    <p>Background Animation Images: Terrariaonline.com</p>
+    <p>Panda Learning Images:</p>
+    <ul>
+      <li>wallpup.com</li>
+      <li>tumblr.com</li>
+      <li>http://www.wallpaperhi.com/</li>
+      <li>clker.com</li>
+    </ul>
+<% end %>
+
+<% content_for :right do %>
+    <div id="twitfeed">
+      <h2>Dev Update</h2>
+      <br>
+      <ol id="twitter_update_list">
+        <li class="tweet"></li>
+      </ol>
+      <!-- below code taken from Twitter developer help have used my own twitter account to test the code and layout as the gallery haven't yet set up their twitter-->
+      <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+      <script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/kcoughlan78.json?callback=twitterCallback2&amp;count=8"></script>
+    </div>
+<% end %>

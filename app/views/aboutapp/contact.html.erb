@@ -1,0 +1,38 @@
+<% content_for :head do %>
+    <title>Panda Tickle: Contact Me</title>
+    <%= stylesheet_link_tag "aboutapp", :media => "all" %>
+<% end %>
+
+<% content_for :center do %>
+    <article>
+      <!--form with user feedback without javascript only using HTML5 and CSS-->
+      <form action="MAILTO:kcoughlan78@me.com" method="post" enctype="text/plain">
+        <label for="firstName">First Name <sup>*</sup></label>
+        <input name="firstName" placeholder="First Name" required />
+
+        <label for="lastName">Last Name <sup>*</sup></label>
+        <input name="lastName" placeholder="Last Name" required />
+
+        <label for="emailaddress">Email address <sup>*</sup></label>
+        <input type="email" name="emailaddress" placeholder="anyname@eg.ie" required />
+        <label for ="message">Your Message <sup>*</sup></label>
+        <textarea name="message" placeholder="Your message here"  col ="40" required></textarea>
+        <label for="submit" class="midButton" title="Send">
+          <input type="submit" name="submit" value="Send" />
+        </label>
+      </form>
+    </article>
+<% end %>
+
+<% content_for :right do %>
+    <div id="twitfeed">
+      <h2>Dev Update</h2>
+      <br>
+      <ol id="twitter_update_list">
+        <li class="tweet"></li>
+      </ol>
+      <!-- below code taken from Twitter developer help have used my own twitter account to test the code and layout as the gallery haven't yet set up their twitter-->
+      <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+      <script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/kcoughlan78.json?callback=twitterCallback2&amp;count=8"></script>
+    </div>
+<% end %>
